@@ -1,0 +1,38 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+header  {
+    background-color: #046018;
+}
+
+nav {
+    background-color: #FAFF00;
+}
+
+.hero-area-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    width: min(90%, 75rem);
+    margin: auto;
+}
+
+.hero-text  {
+    margin: auto;
+}
+
+.hero-image {
+    margin: auto;
+}
+
+.robert-youngs-hero-img {
+    width: 80%;
+    margin: auto;
+}
